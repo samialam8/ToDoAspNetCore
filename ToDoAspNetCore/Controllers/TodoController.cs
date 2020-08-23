@@ -6,7 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ToDoAspNetCore.Controllers
 {
-    public class ToDoController : Controller{
-        //Actions go here
+    public class TodoController : Controller
+    {
+        public IActionResult Index()
+        {
+            //Get to-do items from database
+            //put items into a model
+            //Render view using the model
+        }
     }
 }
