@@ -10,6 +10,7 @@ namespace ToDoAspNetCore.Controllers
     {
         public IActionResult Index()
         {
+            return View();
             //Get to-do items from database
             //put items into a model
             //Render view using the model
